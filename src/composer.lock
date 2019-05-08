@@ -11552,12 +11552,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/scandipwa/base-theme.git",
-                "reference": "b4fdb2255c15e1ed06fa8776ddfbdca674c9e8cb"
+                "reference": "f5c2d7f1298546c4a7b13fc5e9550a2ae3240d4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/b4fdb2255c15e1ed06fa8776ddfbdca674c9e8cb",
-                "reference": "b4fdb2255c15e1ed06fa8776ddfbdca674c9e8cb",
+                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/f5c2d7f1298546c4a7b13fc5e9550a2ae3240d4f",
+                "reference": "f5c2d7f1298546c4a7b13fc5e9550a2ae3240d4f",
                 "shasum": ""
             },
             "require": {
@@ -11610,7 +11610,7 @@
                 "scandipwa",
                 "source"
             ],
-            "time": "2019-05-08T15:34:33+00:00"
+            "time": "2019-05-08T16:47:42+00:00"
         },
         {
             "name": "scandiweb/locale-resolver-fix",
