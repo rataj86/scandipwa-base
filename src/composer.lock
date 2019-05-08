@@ -11332,16 +11332,16 @@
         },
         {
             "name": "scandipwa/quote-graphql",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scandipwa/quote-graphql.git",
-                "reference": "473a4a949f933e34c9c3844681260f26aeb86acc"
+                "reference": "6823f8c7a8faf4669c50a67423e94cb55877294f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/quote-graphql/zipball/473a4a949f933e34c9c3844681260f26aeb86acc",
-                "reference": "473a4a949f933e34c9c3844681260f26aeb86acc",
+                "url": "https://api.github.com/repos/scandipwa/quote-graphql/zipball/6823f8c7a8faf4669c50a67423e94cb55877294f",
+                "reference": "6823f8c7a8faf4669c50a67423e94cb55877294f",
                 "shasum": ""
             },
             "require": {
@@ -11372,7 +11372,7 @@
                 }
             ],
             "description": "N/A",
-            "time": "2019-04-18T14:39:16+00:00"
+            "time": "2019-05-08T10:33:45+00:00"
         },
         {
             "name": "scandipwa/route717",
@@ -11552,12 +11552,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/scandipwa/base-theme.git",
-                "reference": "865411c50a08f2203a881851af7881ed9e19d60c"
+                "reference": "b4fdb2255c15e1ed06fa8776ddfbdca674c9e8cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/865411c50a08f2203a881851af7881ed9e19d60c",
-                "reference": "865411c50a08f2203a881851af7881ed9e19d60c",
+                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/b4fdb2255c15e1ed06fa8776ddfbdca674c9e8cb",
+                "reference": "b4fdb2255c15e1ed06fa8776ddfbdca674c9e8cb",
                 "shasum": ""
             },
             "require": {
@@ -11610,7 +11610,7 @@
                 "scandipwa",
                 "source"
             ],
-            "time": "2019-05-07T14:00:47+00:00"
+            "time": "2019-05-08T15:34:33+00:00"
         },
         {
             "name": "scandiweb/locale-resolver-fix",
