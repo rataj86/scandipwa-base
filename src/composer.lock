@@ -11552,12 +11552,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/scandipwa/base-theme.git",
-                "reference": "f5c2d7f1298546c4a7b13fc5e9550a2ae3240d4f"
+                "reference": "f801e1fdc86b721594fe7503f051591ab085c41f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/f5c2d7f1298546c4a7b13fc5e9550a2ae3240d4f",
-                "reference": "f5c2d7f1298546c4a7b13fc5e9550a2ae3240d4f",
+                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/f801e1fdc86b721594fe7503f051591ab085c41f",
+                "reference": "f801e1fdc86b721594fe7503f051591ab085c41f",
                 "shasum": ""
             },
             "require": {
@@ -11569,7 +11569,8 @@
                 "scandipwa/persisted-query": "^1.0",
                 "scandipwa/quote-graphql": "^1.0",
                 "scandipwa/route717": "^1.0",
-                "scandipwa/slider-graphql": "^1.0"
+                "scandipwa/slider-graphql": "^1.0",
+                "scandipwa/wishlist-graphql": "^1.0"
             },
             "type": "magento2-theme",
             "autoload": {
@@ -11610,7 +11611,51 @@
                 "scandipwa",
                 "source"
             ],
-            "time": "2019-05-08T16:47:42+00:00"
+            "time": "2019-05-11T13:10:19+00:00"
+        },
+        {
+            "name": "scandipwa/wishlist-graphql",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scandipwa/wishlist-graphql.git",
+                "reference": "ab1b76936c5838c4633704cc0b1a62e931e1358b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scandipwa/wishlist-graphql/zipball/ab1b76936c5838c4633704cc0b1a62e931e1358b",
+                "reference": "ab1b76936c5838c4633704cc0b1a62e931e1358b",
+                "shasum": ""
+            },
+            "require": {
+                "magento/product-community-edition": "^2.3.1"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "src/registration.php"
+                ],
+                "psr-4": {
+                    "ScandiPWA\\WishlistGraphQl\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Alfreds Genkins",
+                    "email": "alfreds@scandiweb.com"
+                },
+                {
+                    "name": "Anna Bicevska",
+                    "email": "anna.bicevska@scandiweb.com"
+                }
+            ],
+            "description": "N/A",
+            "time": "2019-05-08T08:26:03+00:00"
         },
         {
             "name": "scandiweb/locale-resolver-fix",
