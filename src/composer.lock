@@ -11552,12 +11552,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/scandipwa/base-theme.git",
-                "reference": "094cbd743d7838c008d1dd14258a9ecb8ac6d5ab"
+                "reference": "a7faec83eb3ff783319a7f0b0b35d2d157a52d86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/094cbd743d7838c008d1dd14258a9ecb8ac6d5ab",
-                "reference": "094cbd743d7838c008d1dd14258a9ecb8ac6d5ab",
+                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/a7faec83eb3ff783319a7f0b0b35d2d157a52d86",
+                "reference": "a7faec83eb3ff783319a7f0b0b35d2d157a52d86",
                 "shasum": ""
             },
             "require": {
@@ -11611,7 +11611,7 @@
                 "scandipwa",
                 "source"
             ],
-            "time": "2019-05-13T11:51:14+00:00"
+            "time": "2019-05-13T12:15:06+00:00"
         },
         {
             "name": "scandipwa/wishlist-graphql",
