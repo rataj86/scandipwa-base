@@ -11552,12 +11552,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/scandipwa/base-theme.git",
-                "reference": "a3402787d9c09f7c8124056930b5a49215a8a8ec"
+                "reference": "c3e5ba1a4dd7ad30f614ab7c36da4e6becf7151d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/a3402787d9c09f7c8124056930b5a49215a8a8ec",
-                "reference": "a3402787d9c09f7c8124056930b5a49215a8a8ec",
+                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/c3e5ba1a4dd7ad30f614ab7c36da4e6becf7151d",
+                "reference": "c3e5ba1a4dd7ad30f614ab7c36da4e6becf7151d",
                 "shasum": ""
             },
             "require": {
