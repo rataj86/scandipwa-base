@@ -223,7 +223,7 @@ WORKDIR /var/www/html
 RUN set -ex \
 	&& cd /usr/local/etc \
 	&& if [ -d php-fpm.d ]; then \
-		# for some reason, upstream's php-fpm.conf.default has "include=NONE/etc/php-fpm.d/*.conf"
+		# for some reason, upstream's php-fpm.conf.default has "include=NONE/etc/php-fpm.d/*.conf" \
 		sed 's!=NONE/!=!g' php-fpm.conf.default | tee php-fpm.conf > /dev/null; \
 		cp php-fpm.d/www.conf.default php-fpm.d/www.conf; \
 	else \
@@ -324,6 +324,25 @@ RUN set -euo pipefail; \
   chmod +x /usr/local/bin/gosu; \
 # verify that the binary works
 	gosu nobody true;
+
+# Install PHP Composer
+RUN set -euo pipefail; \
+    echo "$(tput setaf 111)Installing php composer$(tput sgr0)"; \
+    export EXPECTED_SIGNATURE=$(curl -s -f -L https://composer.github.io/installer.sig); \
+    wget -nc -O composer-setup.php https://getcomposer.org/installer; \
+    echo "$(tput setaf 111)Checking php composer signature$(tput sgr0)"; \
+    echo "$EXPECTED_SIGNATURE" composer-setup.php | sha384sum -c - ; \
+    \
+    if [ -n "$COMPOSER_VERSION" ] && [ "$COMPOSER_VERSION" != "latest" ]; then \
+      COMPOSER_VERSION_OVERRIDE="--version=$COMPOSER_VERSION"; \
+    else COMPOSER_VERSION_OVERRIDE=""; \
+    fi; \
+    php composer-setup.php --no-ansi --install-dir=/usr/local/bin --filename=composer $COMPOSER_VERSION_OVERRIDE; \
+    rm composer-setup.php; \
+    # Ensure cache folder is available \
+    echo "The compose home dir is: $COMPOSER_HOME"; \
+    # Install prestissimo, multithread install helper \
+    composer global require hirak/prestissimo;
 
 EXPOSE 9000
 CMD ["php-fpm"]
