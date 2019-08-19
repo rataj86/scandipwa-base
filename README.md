@@ -4,26 +4,30 @@
 
 This repository is a base repository that contains Docker environment for Magento ^2.3 and is dedicated for ScandiPWA
  theme development and ScandiPWA based project development.
- 
+
 ## Important note
 This branch contains experimental 2.x version, having different codebase inlucded (source v2.x) and DB dump.
- 
-v1.x is currently the main [master branch](https://github.com/scandipwa/scandipwa-base) and has active support and 
- development.  
+
+v1.x is currently the main [master branch](https://github.com/scandipwa/scandipwa-base) and has active support and
+ development.
 
 ## Demo
 You can easily access demo simply clicking [here](https://demo.scandipwa.com)
 
 v1.x demo is available [here](https://v1.scandipwa.com/)
- 
-## Docker
-Please refer to [Docker](./DOCKER.md) and documentation [docs](https://docs.scandipwa.com)
 
-## Theme documentation
-Please refer to [theme](https://github.com/scandipwa/base-theme) repository and [docs](https://github.com/scandipwa/base-theme/tree/master/docs) section.
+## Docs
+Project docs are available on [docs.scandipwa.com](https://docs.scandipwa.com/#/)
+
+## Docker
+For Docker details please refer to [Docker](./DOCKER.md)
+
+## Theme
+For ScandiPWA Theme details please refer to [theme repository](https://github.com/scandipwa/base-theme)
+
 
 ## Modularity
-The repository is based on Magento 2.3.0. All components and modules, except the further theme development must be 
+The repository is based on Magento 2.3.0. All components and modules, except the further theme development must be
 managed by [Composer](https://getcomposer.org)
 
 ## Dependencies
@@ -58,22 +62,22 @@ make cert
 5.  Pull and run the infrastructure
 ```console
 docker-compose -f docker-compose.yml -f docker-compose.local.yml -f docker-compose.ssl.yml pull
-``` 
+```
 ```console
 docker-compose -f docker-compose.yml -f docker-compose.local.yml -f docker-compose.ssl.yml up -d
 ```
 
 > **NOTICE**: Do the following steps only in case you need ScandiPWA DEMO
 
-6.  Stop the application container 
+6.  Stop the application container
 ```console
 docker-compose stop app
 ```
-7.  Recreate existing database 
+7.  Recreate existing database
 ```console
 docker-compose exec mysql mysql -u root -pscandipwa -e "DROP DATABASE magento; CREATE DATABASE magento;"
 ```
-8.  Import DEMO ScandiPWA database: 
+8.  Import DEMO ScandiPWA database:
 ```console
 docker-compose exec -T mysql mysql -u root -pscandipwa magento < deploy/latest.sql
 ```

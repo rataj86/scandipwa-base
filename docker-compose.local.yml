@@ -20,3 +20,14 @@ services:
       - ./src:/var/www/public:cached
     networks:
     - default
+  kibana:
+    image: docker.elastic.co/kibana/kibana:${ELASTICSEARCH_VERSION}
+    restart: on-failure:5
+    environment:
+      - xpack.security.enabled=false
+    ports:
+      - 5601:5601
+    depends_on:
+      - elasticsearch
+    networks:
+      - default

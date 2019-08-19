@@ -274,13 +274,13 @@
             "authors": [
                 {
                     "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de",
-                    "role": "Lead Developer"
+                    "role": "Lead Developer",
+                    "email": "kontakt@beberlei.de"
                 },
                 {
                     "name": "Richard Quadling",
-                    "email": "rquadling@gmail.com",
-                    "role": "Collaborator"
+                    "role": "Collaborator",
+                    "email": "rquadling@gmail.com"
                 }
             ],
             "description": "Thin assertion library for input validation in business models.",
@@ -10629,28 +10629,28 @@
             "authors": [
                 {
                     "name": "Jim Wigginton",
-                    "email": "terrafrost@php.net",
-                    "role": "Lead Developer"
+                    "role": "Lead Developer",
+                    "email": "terrafrost@php.net"
                 },
                 {
                     "name": "Patrick Monnerat",
-                    "email": "pm@datasphere.ch",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "pm@datasphere.ch"
                 },
                 {
                     "name": "Andreas Fischer",
-                    "email": "bantu@phpbb.com",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "bantu@phpbb.com"
                 },
                 {
                     "name": "Hans-Jürgen Petrich",
-                    "email": "petrich@tronic-media.com",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "petrich@tronic-media.com"
                 },
                 {
                     "name": "Graham Campbell",
-                    "email": "graham@alt-three.com",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "graham@alt-three.com"
                 }
             ],
             "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
@@ -11286,16 +11286,16 @@
         },
         {
             "name": "scandipwa/quote-graphql",
-            "version": "2.1.1",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scandipwa/quote-graphql.git",
-                "reference": "3b01e073562efc950eae5171d390db9c625d24b6"
+                "reference": "1e3516d1857cc0d1fc44891146599d5459414e44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/quote-graphql/zipball/3b01e073562efc950eae5171d390db9c625d24b6",
-                "reference": "3b01e073562efc950eae5171d390db9c625d24b6",
+                "url": "https://api.github.com/repos/scandipwa/quote-graphql/zipball/1e3516d1857cc0d1fc44891146599d5459414e44",
+                "reference": "1e3516d1857cc0d1fc44891146599d5459414e44",
                 "shasum": ""
             },
             "require": {
@@ -11326,7 +11326,7 @@
                 }
             ],
             "description": "N/A",
-            "time": "2019-08-01T14:37:05+00:00"
+            "time": "2019-08-19T10:51:10+00:00"
         },
         {
             "name": "scandipwa/reviews-graphql",
