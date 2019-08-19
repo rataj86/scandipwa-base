@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc3b7aaedcd55991bb1f74888d3c17c5",
+    "content-hash": "dca1d73c6dd6e18b19e50068ecf7eea2",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -11546,16 +11546,16 @@
         },
         {
             "name": "scandipwa/source",
-            "version": "2.0.x-dev",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scandipwa/base-theme.git",
-                "reference": "cc813afd9c9545182067af0faebc6f1022021e2d"
+                "reference": "0c40c5d1a5569fcf0c6c978613e9db9f85e47306"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/cc813afd9c9545182067af0faebc6f1022021e2d",
-                "reference": "cc813afd9c9545182067af0faebc6f1022021e2d",
+                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/0c40c5d1a5569fcf0c6c978613e9db9f85e47306",
+                "reference": "0c40c5d1a5569fcf0c6c978613e9db9f85e47306",
                 "shasum": ""
             },
             "require": {
@@ -11611,7 +11611,7 @@
                 "scandipwa",
                 "source"
             ],
-            "time": "2019-08-16T14:58:22+00:00"
+            "time": "2019-08-19T14:37:48+00:00"
         },
         {
             "name": "scandipwa/urlrewrite-graphql",
@@ -19713,17 +19713,9 @@
             "time": "2018-12-25T11:19:39+00:00"
         }
     ],
-    "aliases": [
-        {
-            "alias": "2.0.0",
-            "alias_normalized": "2.0.0.0",
-            "version": "2.0.9999999.9999999-dev",
-            "package": "scandipwa/source"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "scandipwa/source": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": false,
